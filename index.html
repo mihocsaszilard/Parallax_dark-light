@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+
+    <!----- header, logo and navbar menu -->
+
+    <header class="header">
+
+        <img class="logo" src="img/Logo.png" alt="logo">
+        
+               
+        
+        <div class="menu">
+            <a href="#" class="active">Home</a>
+            <a href="#">Books</a>
+            <a href="#">Media</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <label class="dark-light">
+            <input type="checkbox">
+            <span  onclick="darkLight()" class="slider"></span>
+          </label>
+       
+
+    </header>
+    </div>
+
+    <!----- parallax container and  image elements,   -->
+    <div class="home" id="home">
+        <div id="scene" data-relative-input="true">
+            <h1 class="pre-title " data-depth='-0.1' width="10%">Hello! </h1>
+            <img class="selfie parallax-3" src="img/selfie.png" data-depth='0.1' width="100%">
+            <h1 class="title parallax-1" data-depth='-0.1' width="100%">
+                I`m Mihocsa Szilard,
+            </h1>
+
+            <div class="parallax-2 toggler-container" data-depth='0.2' width="100%">
+
+                <div id="toggler">
+                    <!-- <div class="toggler-element">I`m a</div>-->
+                    <p id="text-wrapper">
+                        <span id="rotating-text">
+                            <span class="css-text">CSS</span>
+                            <span class="html-text">HTML</span>
+                            <span class="javascript-text">JavaScript</span>
+                        </span>
+                    </p>
+                    <div class="toggler-element" id="dev">Developer</div>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="github"><i class="fab fa-github-square"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="mail"><i class="fas fa-envelope-square"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <div class="contact-vertical">get in touch</div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="info-box">
+        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+            the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum</p>
+
+        <i class="fas fa-chevron-down arrow"></i>
+        <!--<h2 class="info-point">Scroll to Explore</h2>-->
+    </div>
+    <div class="cardholder" data-depth='-0.2'>
+        <div class="card">
+            <img class="html subcard" src="img/html.png" data-depth='0.1' width="100%" class="parallax-5">
+        </div>
+        <div class="card">
+            <img class="css subcard" src="img/css.png" data-depth='0.1' width="100%" class="parallax-5">
+        </div>
+        <div class="card">
+            <img class="js subcard" src="img/js.png" data-depth='0.1' width="100%" class="parallax-5">
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="/main.js"></script>
+    <script src="/darkLight.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
